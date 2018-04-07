@@ -1,0 +1,16 @@
+{
+  "HOST": "127.0.0.1",
+  "PORT": "3000",
+  "BASE_URL": "http://127.0.0.1:3000/",
+  "API_URL": "http://127.0.0.1:3000/api/",
+  "MONGO_URL": "",
+  "JWT": {
+    "SECRET": "",
+    "EXPIRES": ""
+  },
+  "LOGGER": {
+    "FILE_NAME": "",
+    "MAX_SIZE": "",
+    "MAX_FILES": "5"
+  }
+}

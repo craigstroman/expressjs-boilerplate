@@ -1,0 +1,35 @@
+{
+  "name": "expressjs-es6-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for a ExpressJS app.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon ./server/index.js --exec babel-node './server/index.js'"
+  },
+  "author": "Craig Stroman",
+  "license": "ISC",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "body-parser": "^1.18.2",
+    "config": "^1.30.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "require-dir": "^1.0.0"
+  }
+}

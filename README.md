@@ -1,4 +1,4 @@
-# ExpressJS Boilerplate
+# Express.js Boilerplate
 
 A simple boilerplate for a Express.js app.
 
